@@ -12,10 +12,73 @@
     />
 </head>
 <body>
+    <!-- Hamburger Menu -->
+    <div class="hmenu-overlay" id="hmenuOverlay"></div>
+    <nav class="h-menu">
+        <div class="heading">
+            <i class="ri-close-large-line" id="hmenuClose"></i>
+            <i class="fa-solid fa-circle-user customer-avatar"></i>
+            <p>Hello, sign in</p>
+        </div>
+        <div class="div-1">
+            <span class="main-head">Digital Content & Devices</span>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>Prime Video
+            </p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Amazon Music</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Kindle E-readers & Books</p>
+            <p>
+            <i class="ri-arrow-right-s-line arrow"></i>
+            Amazon Appstore</p>
+        </div>
+        <div class="div-1">
+            <span class="main-head">Shop by Department</span>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Electronics</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Computers</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Smart Home</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Arts & Crafts</p>
+        </div>
+        <div class="div-1">
+            <span class="main-head">Programs & Features</span>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Gift Cards</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Shop By Interest</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                Amazon Live</p>
+            <p>
+                <i class="ri-arrow-right-s-line arrow"></i>
+                International Shopping</p>
+        </div>
+        <div class="div-1">
+            <span class="main-head">Help & Settings</span>
+            <p>Your Account</p>
+            <p>English</p>
+            <p>Customer Service</p>
+            <p>Sign in</p>
+        </div>
+    </nav>
+    
+
     <header>
         <div class="navbar">
             <div class="nav-logo border">
-                <div class="logo"></div>
+                <a href=""><div class="logo"></div></a>
             </div>
 
             <div class="nav-address border">
@@ -65,7 +128,7 @@
         </div>
         
         <div class="panel">
-            <div class="all-icon border">
+            <div class="all-icon border" id="hmenuOpen">
                 <i class="ri-menu-fill"></i>
                 <p class="all">All</p>
             </div>
@@ -300,6 +363,6 @@
         </div>
     </footer>
 
-    
+    <script src="amazon.js"></script>
 </body>
 </html>
